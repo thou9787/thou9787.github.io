@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Install jigsaw
-        uses: KentHsieh/composer-action/7.4@master
+        uses: MilesChou/composer-action/7.4@master
         with:
           args: install
 
